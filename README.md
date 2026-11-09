@@ -17,6 +17,16 @@ npm test           # unit tests van de rekenkern
 npm run build      # statische site in dist/ (te hosten op elke webserver)
 ```
 
+## Website
+
+Bij elke push naar `main` test en bouwt GitHub Actions de app en zet hem op GitHub Pages
+(`.github/workflows/pages.yml`): https://edwindw00.github.io/Fee-Resourceplanner/
+
+Eenmalig nodig: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+
+Let op: de site is openbaar, maar bevat zelf geen medewerkers of tarieven van projecten; die staan
+alleen in de browser van wie ze importeert.
+
 ## Wat er in zit
 
 | Onderdeel (spec) | Status |
